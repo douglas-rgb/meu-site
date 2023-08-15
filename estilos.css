@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  outline: none;
+  
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(17, 0, 255) 0%,
+    rgba(0, 255, 236, 1) 35%,
+    rgb(212, 0, 255) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-page {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 81, 247, 1) 0%,
+    rgba(0, 255, 210, 1) 50%,
+    rgb(41, 6, 240) 100%
+  );
+  border-radius: 28px;
+  padding: 20px;
+  margin: 10px;
+  width: 95%;
+  max-width: 450px;
+  box-shadow: #1e1e1fc9 0px 20px 30px -10px;
+}
+
+.animation-page h1 {
+  display: block;
+  color:#000000 ;
+  text-align :center ;
+  font-weight: bold;
+  margin: 30px auto;
+  font-size: 40px;
+
+}
+
+.animation-page p{
+  display: block;
+  color:#4c00ffb7 ;
+  text-align :center ;
+  font-weight: bold;
+
+}
+
+.animation-page button{
+  display: block;
+  background-color: #cc00ff86;
+  color:#4c00ff ;
+  margin: 30px auto;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  width: 40%;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.animation-page button:hover{
+  transform: scale(.9);
+}
