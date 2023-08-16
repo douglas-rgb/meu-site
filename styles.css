@@ -149,3 +149,39 @@ body {
 .wave:hover {
   background-color: #0400ff;
 }
+
+@media (max-width: 600px) {
+  .animation {
+    background: #0400ff85;
+    min-width: 350px;
+  }
+
+  .animation form {
+    min-width: 300px;
+  }
+
+  .animation input {
+    min-width: 270px;
+    border: none;
+  }
+
+  .animation textarea {
+    min-width: 270px;
+  }
+  
+  .animation .icons li a{
+    margin: 28px;
+  
+  }
+
+  .animation .icons li a i{
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  .wave {
+    display: none;
+  }
+
+
+}
